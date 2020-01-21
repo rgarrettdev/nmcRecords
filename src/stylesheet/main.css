@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /*Imports the google font: Open sans*/
+
+#wrapper{
+  margin-top: 10px;
+  padding: 2%;          /*Allows the sticky nav to remain at the top of the window wihtout blocking content when at the top*/
+}
+body{
+  margin: 0;
+  font-family: 'Open Sans', Verdana, sans-serif; /*The font family is applied to all the text within the body tag.*/
+  font-size: 16px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /*sticky nav bar*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+ th, td {
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+}
+tr:hover {
+  background-color: #d3d3d3;
+}
+.responsiveTable {
+    overflow-x: auto;
+}
+.container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background: #45ff57;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.errormsg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.input-group {
+  margin: 0.2em;
+}
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    padding-left: 12px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+.input-group input:focus {
+    border: 3px solid #555;
+}
+.input-group select {
+    height: 30px;
+    padding-left: 12px;
+    width: 50.7%;
+    font-size: 16px;
+}
+.input-group button {
+    width: 50.7%;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 10px;
+}
+.logged-in{
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  height: 75px;
+}
+.rightCol{
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+.leftCol{
+  float: left;
+  width: 50%;
+}
+div .leftCol{
+  clear: both;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  text-align: center;
+}
